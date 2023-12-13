@@ -11,15 +11,15 @@ main {
   flex-direction: column;
 }
 h1 {
-  color: white;
+  color: #B9CC74;
   font-size: 40px;
 }
 h2 {
-  color: white;
+  color: #B9CC74;
   font-size: 24px;
 }
 h3 {
-  color: white;
+  color: #B9CC74;
   font-size: 14px;
 }
 /* header */
