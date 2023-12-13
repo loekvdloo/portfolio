@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <img
+          src="img/afbeelding loek.jpg"
+          id="afbeeldingloek"
+          alt="afbeeldingloek"
+        />
+        <h1>Loek van de Loo</h1>
+        <div class="knoppen">
+          <div class="randomheen">
+            <a href="index.html">home</a>
+          </div>
+          <div class="randomheen">
+            <a href="work.html">work</a>
+          </div>
+          <div class="randomheen">
+            <a href="portfolio.html">portfolio</a>
+          </div>
+          <div class="randomheen">
+            <a href="contact.html">contact</a>
+          </div>
+        </div>
+      </nav>
+      <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+          >&times;</a
+        >
+        <div class="overlay-content">
+          <a href="index.html">home</a>
+          <a href="work.html">work</a>
+          <a href="portfolio.html">portfolio</a>
+          <a href="contact.html">contact</a>
+        </div>
+      </div>
+      <span
+        id="bar"
+        style="font-size: 30px; cursor: pointer"
+        onclick="openNav()"
+        >&#9776; open</span
+      >
+
+      <script>
+        function openNav() {
+          document.getElementById("myNav").style.width = "100%";
+        }
+
+        function closeNav() {
+          document.getElementById("myNav").style.width = "0%";
+        }
+      </script>
+    </header>
+    <main>
+      <section class="pinkgoosepagina">
+        <div class="pinkgooseklein">
+          <img
+            src="img/Pink Goose.png"
+            id="pinkgooselogo"
+            alt="pinkgooselogo"
+          />
+        </div>
+        <h2>
+          Pink Goose was mijn eerste ervaring en opdracht met een<br />
+          website bouwen. We gebruikte hier voor html en css.<br />
+          We moesten hierbij verschillende acties gebruiken zoals List,<br />
+          Section en Form. We hebben hierbij veel geleerd over slim<br />
+          programmeren en hergebruiken van je class. Ik heb voor deze<br />
+          opdracht een G gekregen. De docent vond mijn werk goed voor<br />
+          wat we moesten doen en wat we konden.<br />
+          Hieronder staat een link naar de website.
+        </h2>
+        <div class="blokgemaaktwerk">
+          <h3>
+            HTML EN CSS CODE:<a
+              href="https://github.com/loekvdloo/PinkGoose-eindopdracht"
+              target="_blank"
+              >klik hier</a
+            >
+          </h3>
+          <h3>
+            VOOR DE WEBSTIE:<a
+              href="https://loekvdloo.github.io/PinkGoose-eindopdracht/"
+              target="_blank"
+              >klik hier</a
+            >
+          </h3>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <section class="contacten">
+        <a target="_blank" href="https://www.instagram.com/loekvdloojr/"
+          ><img src="img/instagram (1).png" alt="instagram" />
+          <p>Loeklvdloojr</p></a
+        >
+        <a target="_blank" href="https://www.facebook.com/loek.vandeloo.31"
+          ><img src="img/facebook (1).png" alt="facebook" />
+          <p>Loek van de Loo</p></a
+        >
+        <a target="_blank" href="https://github.com/loekvdloo"
+          ><img src="img/github (4).png" alt="whatsapp" />
+          <p>Loekvdloo</p>
+        </a>
+        <a
+          ><img src="img/telefoon.png" alt="telefoon" />
+          <p>+31 06 11217467</p></a
+        >
+      </section>
+      <div class="footerstreep"></div>
+      <section class="knoppenfooter">
+        <a href="index.html">home</a>
+        <a href="work.html">work</a>
+        <a href="portfolio.html">portfolio</a>
+        <a href="contact.html">contact</a>
+      </section>
+      <div class="footerstreep" id="tweedestreep"></div>
+      <section class="emailfooter">
+        <p>je kan hier je e-mail achterlaten</p>
+        <form class="invulformulierfooter">
+          <input type="text" class="email" placeholder="your e-mail" />
+          <input type="text" class="email" placeholder="your name" />
+          <input type="submit" id="send" value="send" />
+        </form>
+      </section>
+  </body>
+</html>

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <img
+          src="img/afbeelding loek.jpg"
+          id="afbeeldingloek"
+          alt="afbeeldingloek"
+        />
+        <h1>Loek van de Loo</h1>
+        <div class="knoppen">
+          <div class="randomheen">
+            <a href="index.html">home</a>
+          </div>
+          <div class="randomheen">
+            <a href="work.html">work</a>
+          </div>
+          <div class="randomheen">
+            <a href="portfolio.html">portfolio</a>
+          </div>
+          <div class="randomheen">
+            <a href="contact.html">contact</a>
+          </div>
+        </div>
+      </nav>
+      <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+          >&times;</a
+        >
+        <div class="overlay-content">
+          <a href="index.html">home</a>
+          <a href="work.html">work</a>
+          <a href="portfolio.html">portfolio</a>
+          <a href="contact.html">contact</a>
+        </div>
+      </div>
+      <span
+        id="bar"
+        style="font-size: 30px; cursor: pointer"
+        onclick="openNav()"
+        >&#9776; open</span
+      >
+
+      <script>
+        function openNav() {
+          document.getElementById("myNav").style.width = "100%";
+        }
+
+        function closeNav() {
+          document.getElementById("myNav").style.width = "0%";
+        }
+      </script>
+    </header>
+    <main>
+      <section class="rocpagina">
+        <div class="rocklein">
+          <img src="img/roc logo.png" id="roclogo" alt="roclogo" />
+        </div>
+        <h2>
+          Bij deze opdracht moesten we een website maken voor onze<br />
+          opleiding. Het hoofddoel was dus om een informatieve website<br />
+          te bouwen over onze opleiding. Dit moesten we doen in een<br />
+          groep. Ik heb deze opdracht gemaakt met 2 anderen studenten<br />
+          uit me klas in 3 dagen. We moesten hierbij eerst een<br />
+          Trello bord maken met daarna een ontwerp.<br />
+          We moesten hierbij goed samenwerken om alles af te krijgen.
+        </h2>
+        <div class="blokgemaaktwerk">
+          <h3>
+            HTML EN CSS CODE:<a
+              href="https://github.com/loekvdloo/loekproject\"
+              target="_blank"
+              >klik hier</a
+            >
+          </h3>
+          <h3>
+            VOOR DE WEBSTIE:<a
+              href="https://loekvdloo.github.io/loekproject/"
+              target="_blank"
+              >klik hier</a
+            >
+          </h3>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <section class="contacten">
+        <a target="_blank" href="https://www.instagram.com/loekvdloojr/"
+          ><img src="img/instagram (1).png" alt="instagram" />
+          <p>Loeklvdloojr</p></a
+        >
+        <a target="_blank" href="https://www.facebook.com/loek.vandeloo.31"
+          ><img src="img/facebook (1).png" alt="facebook" />
+          <p>Loek van de Loo</p></a
+        >
+        <a target="_blank" href="https://github.com/loekvdloo"
+          ><img src="img/github (4).png" alt="whatsapp" />
+          <p>Loekvdloo</p>
+        </a>
+        <a
+          ><img src="img/telefoon.png" alt="telefoon" />
+          <p>+31 06 11217467</p></a
+        >
+      </section>
+      <div class="footerstreep"></div>
+      <section class="knoppenfooter">
+        <a href="index.html">home</a>
+        <a href="work.html">work</a>
+        <a href="portfolio.html">portfolio</a>
+        <a href="contact.html">contact</a>
+      </section>
+      <div class="footerstreep" id="tweedestreep"></div>
+      <section class="emailfooter">
+        <p>je kan hier je e-mail achterlaten</p>
+        <form class="invulformulierfooter">
+          <input type="text" class="email" placeholder="your e-mail" />
+          <input type="text" class="email" placeholder="your name" />
+          <input type="submit" id="send" value="send" />
+        </form>
+      </section>
+  </body>
+</html>

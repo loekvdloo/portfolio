@@ -1,0 +1,532 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  background-color: #626655;
+  width: 100vw;
+}
+main {
+  display: flex;
+  flex-direction: column;
+}
+h1 {
+  color: white;
+  font-size: 40px;
+}
+h2 {
+  color: white;
+  font-size: 24px;
+}
+h3 {
+  color: white;
+  font-size: 14px;
+}
+/* header */
+header {
+  display: flex;
+  height: 125px;
+  background-color: #919976;
+}
+#afbeeldingloek {
+  margin-left: 56px;
+  height: 60px;
+  width: 60px;
+  border-radius: 80px;
+  margin-right: 20px;
+}
+header nav {
+  display: flex;
+  align-items: center;
+}
+.knoppen {
+  display: flex;
+  font-size: 36px;
+  gap: 41px;
+  margin-left: 332px;
+}
+.knoppen a {
+  display: flex;
+  color: white;
+  text-decoration: none;
+}
+.randomheen {
+  height: 74px;
+  width: 160px;
+  background-color: #2f3320;
+  border-radius: 25px;
+}
+.randomheen a {
+  display: flex;
+  justify-content: center;
+  padding-top: 12px;
+}
+#menu {
+  display: none;
+  width: 10%;
+  height: 50%;
+  margin-top: 10px;
+  padding-left: 90px;
+}
+.overlay {
+  display: none;
+}
+#bar {
+  display: none;
+}
+/* einde header */
+/* informatie over mij */
+.informatieovermij {
+  display: flex;
+  justify-content: center;
+  margin-top: 159px;
+  margin-bottom: 216px;
+}
+#infoblok {
+  height: 498px;
+  width: 966px;
+  border-radius: 49px;
+  background-color: #2f3320;
+}
+#infoblok {
+  display: flex;
+  align-items: center;
+}
+.blokinformatieovermij {
+  margin-left: 98px;
+}
+#infoblok h1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+#infoblok h3 {
+  text-align: center;
+  margin-top: 20px;
+}
+#grootafbeeldingloek {
+  height: 318.28px;
+  width: 316px;
+  border-radius: 25px;
+  margin-left: 83px;
+}
+#telefoonafbeeldingloek {
+  display: none;
+}
+/* portfolio */
+.hooftblok {
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+.hooftblok h1 {
+  display: flex;
+  justify-content: center;
+}
+.blokkensamen {
+  display: flex;
+  margin-top: 28px;
+  justify-content: center;
+  gap: 56px;
+}
+.blokkensamen h3 {
+  text-align: center;
+  padding-top: 17px;
+}
+/* pinkgoose */
+#pinkgooseblok {
+  height: 205px;
+  width: 220px;
+  background-color: black;
+  border-radius: 35px;
+}
+#pinkgooseblok img {
+  height: 20%;
+  width: 70%;
+}
+#pinkgooseblok a {
+  display: flex;
+  justify-content: center;
+  padding-top: 85px;
+}
+/* rocblok */
+#rocblok img {
+  height: 20%;
+  width: 70%;
+}
+.rocblok {
+  background-color: white !important;
+}
+/* pinkgoose pagina */
+.pinkgoosepagina {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.pinkgooseklein {
+  display: flex;
+  margin-top: 75px;
+  height: 132px;
+  width: 365px;
+  background-color: black;
+  border-radius: 35px;
+}
+#pinkgooselogo {
+  display: flex;
+  height: 20%;
+  align-self: center;
+  padding-left: 90px;
+}
+.pinkgoosepagina h2 {
+  display: flex;
+  text-align: center;
+  margin-top: 32px;
+}
+.blokgemaaktwerk {
+  height: 155px;
+  width: 477px;
+  background-color: #ffa800;
+  border-radius: 30px;
+  margin-top: 111px;
+  margin-bottom: 211px;
+}
+.pinkgoosepagina h3 {
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+}
+.pinkgoosepagina a {
+  color: blue;
+  padding-left: 5px;
+}
+/* roc pagina */
+.rocpagina {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.rocklein {
+  display: flex;
+  margin-top: 75px;
+  height: 132px;
+  width: 365px;
+  background-color: white;
+  border-radius: 35px;
+}
+#roclogo {
+  display: flex;
+  height: 20%;
+  align-self: center;
+  padding-left: 90px;
+}
+.rocpagina h2 {
+  display: flex;
+  text-align: center;
+  margin-top: 32px;
+  padding: 40px;
+}
+.rocpagina h3 {
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+}
+.rocpagina a {
+  color: blue;
+  padding-left: 5px;
+}
+/* mastermind pagina */
+.mastermindpagina {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 75px;
+}
+.mastermindpagina img {
+  height: 100px;
+  width: 400px;
+}
+.mastermindpagina h2 {
+  display: flex;
+  text-align: center;
+  margin-top: 22px;
+}
+.mastermindpagina h3 {
+  display: flex;
+  justify-content: center;
+  padding-top: 60px;
+}
+/* work pagina */
+.work {
+  display: flex;
+  margin-top: 78px;
+  align-items: center;
+  flex-direction: column;
+}
+.work h2 {
+  padding-top: 47px;
+  display: flex;
+  text-align: center;
+}
+.workplaatjes {
+  display: flex;
+  gap: 150px;
+  padding-top: 68px;
+  margin-bottom: 95px;
+}
+/* footer */
+footer {
+  display: flex;
+  width: 110vw;
+  height: 300px;
+  background-color: #919976;
+}
+/* streepje footer */
+.footerstreep {
+  height: 211px;
+  width: 2px;
+  background-color: black;
+  margin-top: 36px;
+  margin-left: 78px;
+}
+#hoi {
+  display: flex;
+  margin-left: 393px;
+}
+/* socials */
+.contacten {
+  padding-left: 95px;
+  padding-top: 36px;
+}
+.contacten p {
+  padding-left: 20px;
+}
+.contacten a {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  text-decoration: none;
+  color: black;
+}
+/* knoppen footer */
+.knoppenfooter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 25px;
+  margin-left: 80px;
+}
+.knoppenfooter a {
+  color: black;
+  font-size: 20px;
+  padding: 15px;
+  text-decoration: none;
+}
+/* e-mail footer */
+.emailfooter {
+  flex-direction: column;
+  align-self: center;
+  margin-left: 96px;
+ 
+}
+.invulformulierfooter {
+  display: flex;
+  flex-direction: column;
+}
+.email {
+  background-color: #2d3316;
+  border: 2px solid black;
+  border-radius: 9px;
+  height: 43px;
+  width: 263px;
+  margin-top: 13px;
+  margin-bottom: 5px;
+}
+#send {
+  height: 30px;
+  width: 73px;
+  border-radius: 7px;
+  background-color: #2d3316;
+  color: gray;
+  align-self: end;
+}
+/* responsive */
+@media screen and (max-width: 450px) {
+  /* header */
+  header {
+    display: flex;
+    width: 100%;
+    height: 50px;
+  }
+  header h1 {
+    display: flex;
+    font-size: 20px;
+    width: 200px;
+  }
+  #afbeeldingloek {
+    display: flex;
+    width: 40px;
+    height: 30px;
+    margin-left: 10px;
+  }
+  .knoppen {
+    display: none;
+  }
+  .dropdown {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 50px;
+    background-color: #696969;
+    gap: 10px;
+  }
+  .overlay {
+    display: flex;
+  }
+  #bar {
+    display: flex;
+  }
+  .overlay a {
+    font-size: 20px;
+  }
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+  .overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+  }
+  .overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+  }
+  .overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  .overlay a:hover,
+  .overlay a:focus {
+    color: #f1f1f1;
+  }
+  .overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+  }
+  #menu {
+    display: block;
+  }
+  /* home pagina */
+  #infoblok {
+    height: 739px;
+    width: 340px;
+    flex-direction: column;
+    margin-top: -50px;
+  }
+  #telefoonafbeeldingloek {
+    display: flex;
+    height: 169px;
+    width: 189px;
+    border-radius: 25px;
+    margin-top: 27px;
+  }
+  #grootafbeeldingloek {
+    display: none;
+  }
+  .blokinformatieovermij {
+    margin-left: 0px;
+  }
+  .blokinformatieovermij h3 {
+    padding: 25px;
+  }
+  /* portfolio */
+  .hooftblok {
+    display: flex;
+    flex-direction: column;
+  }
+  .blokkensamen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 47px;
+    margin-bottom: 30px;
+  }
+  /* pinkgoose pagina */
+  .pinkgoosepagina {
+    padding: 40px;
+  }
+  .blokgemaaktwerk {
+    display: flex;
+    flex-direction: column;
+    margin-top: 72px;
+    height: 123px;
+    width: 331px;
+  }
+  .blokgemaaktwerk h3 {
+    display: flex;
+    align-items: center;
+  }
+  /* mastermind pagina */
+  .mastermindpagina img {
+    height: 100px;
+    width: 300px;
+  }
+  .mastermindpagina h2 {
+    padding: 40px;
+  }
+  /* work pagina */
+  .work h2 {
+    display: flex;
+    padding: 60px;
+  }
+  .workplaatjes {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+  }
+  /* footer */
+  footer {
+    display: flex;
+    flex-direction: column;
+    width: 390px;
+    height: 777px;
+    background-color: #919976;
+  }
+  .contacten {
+    margin-left: -45px;
+  }
+  .footerstreep {
+    display: flex;
+    width: 311px;
+    height: 2px;
+    margin-left: 45px;
+    margin-left: 45px;
+    background-color: black;
+  }
+  .knoppenfooter{
+    margin-left: 45px;
+  }
+  .emailfooter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    margin-right: 90px;
+  }
+}
