@@ -11,15 +11,15 @@ main {
   flex-direction: column;
 }
 h1 {
-  color: #B9CC74;
+  color: #b9cc74;
   font-size: 40px;
 }
 h2 {
-  color: #B9CC74;
+  color: #b9cc74;
   font-size: 24px;
 }
 h3 {
-  color: #B9CC74;
+  color: #b9cc74;
   font-size: 14px;
 }
 /* header */
@@ -95,6 +95,9 @@ header nav {
 .blokinformatieovermij {
   margin-left: 98px;
 }
+.blokinformatieovermij a {
+  color: #b9cc74;
+}
 #infoblok h1 {
   display: flex;
   justify-content: center;
@@ -157,12 +160,12 @@ header nav {
   background-color: white !important;
 }
 /* pinkgoose pagina */
-.pinkgoosepagina {
+.portfoliopaginas {
   display: flex;
   align-items: center;
   flex-direction: column;
 }
-.pinkgooseklein {
+.portfoliopaginasfoto {
   display: flex;
   margin-top: 75px;
   height: 132px;
@@ -176,12 +179,16 @@ header nav {
   align-self: center;
   padding-left: 90px;
 }
-.pinkgoosepagina h2 {
+.portfoliopaginas h2 {
   display: flex;
   text-align: center;
   margin-top: 32px;
 }
 .blokgemaaktwerk {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   height: 155px;
   width: 477px;
   background-color: #ffa800;
@@ -189,71 +196,29 @@ header nav {
   margin-top: 111px;
   margin-bottom: 211px;
 }
-.pinkgoosepagina h3 {
-  display: flex;
-  justify-content: center;
-  padding-top: 40px;
+.blokgemaaktwerk h3{
+  padding: 19px;
 }
-.pinkgoosepagina a {
+
+.portfoliopaginas a {
   color: blue;
   padding-left: 5px;
 }
 /* roc pagina */
-.rocpagina {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-}
-.rocklein {
-  display: flex;
-  margin-top: 75px;
-  height: 132px;
-  width: 365px;
-  background-color: white;
-  border-radius: 35px;
-}
 #roclogo {
   display: flex;
   height: 20%;
   align-self: center;
   padding-left: 90px;
 }
-.rocpagina h2 {
-  display: flex;
-  text-align: center;
-  margin-top: 32px;
-  padding: 40px;
-}
-.rocpagina h3 {
-  display: flex;
-  justify-content: center;
-  padding-top: 40px;
-}
-.rocpagina a {
-  color: blue;
-  padding-left: 5px;
+#kleur{
+  background-color: white;
 }
 /* mastermind pagina */
-.mastermindpagina {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
+#plaatsing{
   margin-top: 75px;
 }
-.mastermindpagina img {
-  height: 100px;
-  width: 400px;
-}
-.mastermindpagina h2 {
-  display: flex;
-  text-align: center;
-  margin-top: 22px;
-}
-.mastermindpagina h3 {
-  display: flex;
-  justify-content: center;
-  padding-top: 60px;
-}
+
 /* work pagina */
 .work {
   display: flex;
@@ -313,6 +278,7 @@ footer {
   justify-content: center;
   margin-bottom: 25px;
   margin-left: 80px;
+  margin-right: 393px;
 }
 .knoppenfooter a {
   color: black;
@@ -325,7 +291,6 @@ footer {
   flex-direction: column;
   align-self: center;
   margin-left: 96px;
- 
 }
 .invulformulierfooter {
   display: flex;
@@ -456,10 +421,6 @@ footer {
     padding: 25px;
   }
   /* portfolio */
-  .hooftblok {
-    display: flex;
-    flex-direction: column;
-  }
   .blokkensamen {
     display: flex;
     flex-direction: column;
@@ -468,27 +429,12 @@ footer {
     margin-bottom: 30px;
   }
   /* pinkgoose pagina */
-  .pinkgoosepagina {
-    padding: 40px;
-  }
   .blokgemaaktwerk {
     display: flex;
     flex-direction: column;
     margin-top: 72px;
     height: 123px;
     width: 331px;
-  }
-  .blokgemaaktwerk h3 {
-    display: flex;
-    align-items: center;
-  }
-  /* mastermind pagina */
-  .mastermindpagina img {
-    height: 100px;
-    width: 300px;
-  }
-  .mastermindpagina h2 {
-    padding: 40px;
   }
   /* work pagina */
   .work h2 {
@@ -519,10 +465,10 @@ footer {
     margin-left: 45px;
     background-color: black;
   }
-  .knoppenfooter{
+  .knoppenfooter {
     margin-left: 45px;
   }
-  .emailfooter{
+  .emailfooter {
     display: flex;
     flex-direction: column;
     align-items: center;
