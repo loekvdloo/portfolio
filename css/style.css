@@ -25,6 +25,7 @@ h3 {
 /* header */
 header {
   display: flex;
+  width: 100vw;
   height: 125px;
   background-color: #919976;
 }
@@ -196,7 +197,7 @@ header nav {
   margin-top: 111px;
   margin-bottom: 211px;
 }
-.blokgemaaktwerk h3{
+.blokgemaaktwerk h3 {
   padding: 19px;
 }
 
@@ -211,36 +212,82 @@ header nav {
   align-self: center;
   padding-left: 90px;
 }
-#kleur{
+#kleur {
   background-color: white;
 }
 /* mastermind pagina */
-#plaatsing{
+#plaatsing {
   margin-top: 75px;
 }
 
 /* work pagina */
 .work {
   display: flex;
-  margin-top: 78px;
-  align-items: center;
   flex-direction: column;
+  align-items: center;
 }
-.work h2 {
-  padding-top: 47px;
+.work h1 {
+  margin-top: 82px;
+  margin-bottom: 31px;
+}
+.worksamen {
   display: flex;
+  gap: 119px;
   text-align: center;
 }
-.workplaatjes {
+.workplaatjes a {
   display: flex;
-  gap: 150px;
-  padding-top: 68px;
-  margin-bottom: 95px;
+  flex-direction: column;
+  gap: 30px;
+  margin-bottom: 200px;
+  text-decoration: none;
+}
+/* contact pagina */
+.inhoudcontact {
+  display: flex;
+  justify-content: center;
+}
+.contactblok {
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+  margin-bottom: 70px;
+  height: 724px;
+  width: 599px;
+  background-color: #2f3320;
+  border-radius: 20px;
+}
+.formulier {
+  display: flex;
+  flex-direction: column;
+}
+.inhoudcontact h1 {
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+  padding-bottom: 31px;
+}
+.contactformulier {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.invulplek {
+  display: flex;
+  height: 52px;
+  width: 309px;
+  background-color: #2d3316;
+  border-radius: 10px;
+  color: white;
+}
+#bericht{
+  height: 177px;
+  width: 309px;
 }
 /* footer */
 footer {
   display: flex;
-  width: 110vw;
+  width: 100vw;
   height: 300px;
   background-color: #919976;
 }
@@ -251,10 +298,6 @@ footer {
   background-color: black;
   margin-top: 36px;
   margin-left: 78px;
-}
-#hoi {
-  display: flex;
-  margin-left: 393px;
 }
 /* socials */
 .contacten {
@@ -437,20 +480,20 @@ footer {
     width: 331px;
   }
   /* work pagina */
-  .work h2 {
-    display: flex;
-    padding: 60px;
-  }
-  .workplaatjes {
+  .worksamen {
     display: flex;
     flex-direction: column;
-    width: 70%;
+    gap: 10px;
+  }
+  /* contact pagina */
+  .inhoudcontact{
+padding: 10px;
   }
   /* footer */
   footer {
     display: flex;
     flex-direction: column;
-    width: 390px;
+    width: 100vw;
     height: 777px;
     background-color: #919976;
   }
