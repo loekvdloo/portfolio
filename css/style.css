@@ -280,7 +280,7 @@ header nav {
   border-radius: 10px;
   color: white;
 }
-#bericht{
+#bericht {
   height: 177px;
   width: 309px;
 }
@@ -486,8 +486,8 @@ footer {
     gap: 10px;
   }
   /* contact pagina */
-  .inhoudcontact{
-padding: 10px;
+  .inhoudcontact {
+    padding: 10px;
   }
   /* footer */
   footer {
