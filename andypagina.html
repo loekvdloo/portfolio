@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <img
+          src="img/afbeelding loek.jpg"
+          id="afbeeldingloek"
+          alt="afbeeldingloek"
+        />
+        <h1>Loek van de Loo</h1>
+        <div class="knoppen">
+          <div class="randomheen">
+            <a href="index.html">home</a>
+          </div>
+          <div class="randomheen">
+            <a href="work.html">work</a>
+          </div>
+          <div class="randomheen">
+            <a href="portfolio.html">portfolio</a>
+          </div>
+          <div class="randomheen">
+            <a href="contact.html">contact</a>
+          </div>
+        </div>
+      </nav>
+      <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+          >&times;</a
+        >
+        <div class="overlay-content">
+          <a href="index.html">home</a>
+          <a href="work.html">work</a>
+          <a href="portfolio.html">portfolio</a>
+          <a href="contact.html">contact</a>
+        </div>
+      </div>
+      <span
+        id="bar"
+        style="font-size: 30px; cursor: pointer"
+        onclick="openNav()"
+        >&#9776; open</span
+      >
+
+      <script>
+        function openNav() {
+          document.getElementById("myNav").style.width = "100%";
+        }
+
+        function closeNav() {
+          document.getElementById("myNav").style.width = "0%";
+        }
+      </script>
+    </header>
+    <main>
+      <section class="informatieovermij">
+        <div id="infoblok">
+          <img
+            src="img/afbeelding loek.jpg"
+            id="telefoonafbeeldingloek"
+            alt="telefoonafbeeldingloek"
+          />
+          <div class="blokinformatieovermij">
+            <h1>Loek van de Loo</h1>
+            <h3>
+              Hoi ik ben Loek van de loo,<br />
+              ik ben 17 jaar oud en kom uit Molenhoek. Ik ben bezig met de<br />
+              opleiding software development. als je meer wilt weten over mij
+              <br />
+              en wat ik gedaan heb, kijk gerust verder op mijn website<br />
+            </h3>
+            <h1>portfolio</h1>
+            <h3>
+              Ik doe verschillende dingen zoals met Java en Html Css. Zo doen
+              we<br />
+              op deze opleiding websites bouwen en games programmeren.<br />
+              We leren elke week er weer nieuwe dingen bij. Wil je weten wat
+              ik<br />
+              allemaal heb gemaakt klik dan <a href="portfolio.html">hier</a>.
+            </h3>
+          </div>
+          <img
+            src="img/afbeelding loek.jpg"
+            id="grootafbeeldingloek"
+            alt="grootafbeeldingloek"
+          />
+        </div>
+      </section>
+    </main>
+    <footer>
+      <section class="contacten">
+        <a target="_blank" href="https://www.instagram.com/loekvdloojr/"
+          ><img src="img/instagram (1).png" alt="instagram" />
+          <p>Loeklvdloojr</p></a
+        >
+        <a target="_blank" href="https://www.facebook.com/loek.vandeloo.31"
+          ><img src="img/facebook (1).png" alt="facebook" />
+          <p>Loek van de Loo</p></a
+        >
+        <a target="_blank" href="https://github.com/loekvdloo"
+          ><img src="img/github (4).png" alt="whatsapp" />
+          <p>Loekvdloo</p>
+        </a>
+        <a
+          ><img src="img/telefoon.png" alt="telefoon" />
+          <p>+31 06 11217467</p></a
+        >
+      </section>
+      <div class="footerstreep"></div>
+      <section class="knoppenfooter">
+        <a href="index.html">home</a>
+        <a href="work.html">work</a>
+        <a href="portfolio.html">portfolio</a>
+        <a href="contact.html">contact</a>
+      </section>
+      <div class="footerstreep"></div>
+      <section class="emailfooter">
+        <p>je kan hier je e-mail achterlaten</p>
+        <form class="invulformulierfooter">
+          <input type="text" class="email" placeholder="your e-mail" />
+          <input type="text" class="email" placeholder="your name" />
+          <input type="submit" id="send" value="send" />
+        </form>
+      </section>
+    </footer>
+  </body>
+</html>
