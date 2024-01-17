@@ -11,12 +11,14 @@
   <body>
     <header>
       <nav>
-        <img
-          src="img/afbeelding loek.jpg"
-          id="afbeeldingloek"
-          alt="afbeeldingloek"
-        />
-        <h1>Loek van de Loo</h1>
+        <div id="logo">
+          <a href="index.html">
+            <img src="img/logo.png" id="afbeeldingloek" alt="logo"
+          /></a>
+          <a href="index.html">
+            <h1>Loek van de Loo</h1>
+          </a>
+        </div>
         <div class="knoppen">
           <div class="randomheen">
             <a href="index.html">home</a>
@@ -47,8 +49,8 @@
         id="bar"
         style="font-size: 30px; cursor: pointer"
         onclick="openNav()"
-        >&#9776; open</span
-      >
+        >&#9776;
+      </span>
 
       <script>
         function openNav() {
