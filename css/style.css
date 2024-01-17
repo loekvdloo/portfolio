@@ -9,17 +9,18 @@ body {
 main {
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 h1 {
-  color: #b9cc74;
+  color: black;
   font-size: 40px;
 }
 h2 {
-  color: #b9cc74;
+  color: black;
   font-size: 24px;
 }
 h3 {
-  color: #b9cc74;
+  color: black;
   font-size: 14px;
 }
 /* header */
@@ -30,11 +31,8 @@ header {
   background-color: #919976;
 }
 #afbeeldingloek {
-  margin-left: 56px;
-  height: 60px;
-  width: 60px;
-  border-radius: 80px;
-  margin-right: 20px;
+padding-left: 15px;
+padding-right: 10px;
 }
 header nav {
   display: flex;
@@ -75,7 +73,129 @@ header nav {
 #bar {
   display: none;
 }
-/* einde header */
+/* landingpagina */
+/* bewegende tekst */
+.landingpagina {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 600px;
+  height: 250px;
+  margin-top: 70px;
+  margin-bottom: 70px;
+  padding: 30px;
+  background-color: #2f3320;
+  border-radius: 30px;
+  text-indent: 5px;
+}
+.line-1 {
+  display: flex;
+  width: 24em;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.landingpagina p {
+  color: white;
+  position: relative;
+  left: 70px;
+}
+/* animatie tekstlijnen */
+.anim-typewriter:nth-child(1) {
+  animation-delay: 0s;
+}
+.anim-typewriter:nth-child(2) {
+  animation-delay: 1.5s;
+  left: 100px;
+}
+.anim-typewriter:nth-child(3) {
+  animation-delay: 2.7s;
+  left: 100px;
+}
+.anim-typewriter:nth-child(4) {
+  animation-delay: 3.5s;
+  left: 100px;
+}
+.anim-typewriter:nth-child(5) {
+  animation-delay: 5s;
+  left: 100px;
+  padding-top: 25px;
+}
+.anim-typewriter:nth-child(6) {
+  animation-delay: 6s;
+  left: 120px;
+  text-indent: 0px;
+}
+.anim-typewriter:nth-child(7) {
+  animation-delay: 7.8s;
+  left: 137px;
+}
+.anim-typewriter:nth-child(8) {
+  animation-delay: 9s;
+  left: 137px;
+}
+.anim-typewriter:nth-child(9) {
+  animation-delay: 10.3s;
+  left: 137px;
+}
+.anim-typewriter:nth-child(10) {
+  animation-delay: 11.2s;
+  left: 137px;
+}
+.anim-typewriter:nth-child(11) {
+  animation-delay: 11.7s;
+  left: 120px;
+  text-indent: 0px;
+}
+.anim-typewriter:nth-child(12) {
+  animation-delay: 11.9s;
+  left: 100px;
+}
+.anim-typewriter:nth-child(13) {
+  animation-delay: 12s;
+}
+/* Animation */
+.anim-typewriter {
+  animation: typewriter 2s steps(44) 1s 1 normal both,
+    blinkTextCursor 500ms steps(44) infinite normal;
+}
+@keyframes typewriter {
+  from {
+    width: 0;
+  }
+  to {
+    width: 24em;
+  }
+}
+/* kleuren tekst */
+.donkerblauw {
+  color: #4d94ff;
+}
+.lichtblauw {
+  color: #66d9ff;
+}
+.groen {
+  color: #00cc99;
+}
+.rood {
+  color: #ff3333;
+}
+.lichtgeel {
+  color: #ffffcc;
+}
+.donkergeel {
+  color: #ffff33;
+}
+.paars {
+  color: #d580ff;
+}
+/* blokkleinaboutme */
+.blokkleinaboutme{
+  margin-bottom: 70px;
+}
+.blokkleinaboutme a{
+font-size: 36px;
+color: white;
+}
 /* informatie over mij */
 .informatieovermij {
   display: flex;
@@ -219,7 +339,6 @@ header nav {
 #plaatsing {
   margin-top: 75px;
 }
-
 /* work pagina */
 .work {
   display: flex;
@@ -279,6 +398,9 @@ header nav {
   background-color: #2d3316;
   border-radius: 10px;
   color: white;
+  border: 2px solid;
+  border-color: black;
+  padding-left: 10px;
 }
 #bericht {
   height: 177px;
