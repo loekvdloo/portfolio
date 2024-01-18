@@ -205,28 +205,35 @@ header nav {
   color: white;
 }
 /* informatie over mij */
-.informatieovermij {
-  display: flex;
-  justify-content: center;
-}
 #infoblok {
   display: flex;
   align-items: center;
+  margin-top: 70px;
+  margin-bottom: 70px;
+  padding: 30px;
   gap: 80px;
-  height: 498px;
+  height: 400px;
   width: 966px;
   border-radius: 49px;
   background-color: #2f3320;
 }
-.blokinformatieovermij a {
-  color: #b9cc74;
-}
 #infoblok h1 {
   display: flex;
   justify-content: center;
+  color: white;
+}
+.blokinformatieovermij{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 #infoblok h3 {
   text-align: center;
+  color: white;
+  padding-bottom: 40px;
+}
+#infoblok a{
+  color: blue;
 }
 #grootafbeeldingloek {
   height: 318.28px;
@@ -576,7 +583,6 @@ footer {
     height: 739px;
     width: 340px;
     flex-direction: column;
-    margin-top: -50px;
   }
   #telefoonafbeeldingloek {
     display: flex;
