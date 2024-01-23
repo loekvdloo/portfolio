@@ -28,8 +28,7 @@ header {
   display: flex;
   height: 125px;
   background-color: #919976;
-}
-
+} 
 header nav {
   display: flex;
   align-items: center;
@@ -261,16 +260,16 @@ header nav {
   width: 220px;
 }
 /* pinkgoose */
-#pinkgooseblok {
+.pinkgooseblok {
   height: 205px;
   width: 220px;
   background-color: black;
   border-radius: 35px;
 }
-#pinkgooseblok img {
+.pinkgooseblok img {
   width: 70%;
 }
-#pinkgooseblok a {
+.pinkgooseblok a {
   display: flex;
   justify-content: center;
   padding-top: 85px;
@@ -280,7 +279,7 @@ header nav {
   height: 20%;
   width: 70%;
 }
-.rocblok {
+#rocblok {
   background-color: white !important;
 }
 /* pinkgoose pagina */
@@ -455,7 +454,6 @@ footer {
 }
 /* e-mail footer */
 .emailfooter {
-
   align-self: center;
   margin-left: 96px;
 }
@@ -474,7 +472,7 @@ footer {
   width: 250px;
   padding: 17px;
 }
-#send {
+.send {
   height: 30px;
   width: 73px;
   border-radius: 7px;
