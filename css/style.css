@@ -24,11 +24,12 @@ h3 {
   font-size: 14px;
 }
 /* header */
+/* de header zorgt ervoor dat de header de goeie hoogte heeft en breedte maar ook voor de kleur */
 header {
   display: flex;
   height: 125px;
   background-color: #919976;
-} 
+}
 header nav {
   display: flex;
   align-items: center;
@@ -233,7 +234,7 @@ header nav {
   color: blue;
 }
 #grootafbeeldingloek {
-  height: 318.28px;
+  /* height: 318.28px; */
   width: 316px;
   border-radius: 25px;
 }
